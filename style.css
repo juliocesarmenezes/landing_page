@@ -4,62 +4,56 @@
     padding: 0;
     margin: 0;
 }
-header>img{
+header > img{
     background-color: rgb(218, 217, 217);
     background-image: url(imagens/logosolar.png);  
-    width: 100%bh;
-    height: 100px;  
+    width: 250px;
+    height: 100px;
+    display: inline-block;  
 }
-#prodh1 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 40px;
-    transform: translate(1%, 50%);
-
-
+header > nav {
+    float: right;
+    margin-right: 50px;
+    margin-top: 80px;
 }
-button {
-    background-color: rgb(31, 152, 225);
-    width: 180px;
-    height: 30px;
-    transform: translate(-30%);
-    border: none;
+.tith1 > img {
+    background-image: url('../imagens/photovoltaic.jpg');
+    width: 1000px;
+    height: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.solic {
+    transform: translate(40%, 320%);
+    font-size: 18px;
+    background-color: blue;
     color: aliceblue;
+    height: 40px;
+    width: 220px;
+    border: none;
+    border-radius: 20px;
+
 }
-.tith1{
-background-image: url(imagens/photovoltaic-2138992_1920.jpg);
-  height: 550px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.solic:hover {
+    background-color: rgb(121, 121, 247);
+    cursor: pointer;
 }
-.tith1 > h1{
-    padding: 100px;
-    transform: translate(10%);
+.tith1 {
+    background-image: url('imagens/photovoltaic.jpg');
+    height: 400px;
+    width: 100% 
 }
- 
-nav {
-    text-align: right;
-    transform: translate(-1%, -200%);
-    gap: 20px;
+.tith1, h1 {
+    color: white;
+    padding-left: 25px;
+    padding-top: 80px;
+    font-size: 40px;
 }
-#imagen > article {
-    width: 33%;
-    display: inline-block;
-    text-align: center;
-}
-.nossproj{
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-}
-.num {
-    text-align: left;
-    
-}
-.poten {
-    text-align: center;
-}
+#imagem > article 
+
+
+
+
 
 
 
